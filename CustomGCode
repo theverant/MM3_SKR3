@@ -1,3 +1,6 @@
+# Replace the slicer's custom start and end g-code scripts with
+# START_PRINT and END_PRINT.
+
 ## START GCODE
 M140 S0
 M104 S0
