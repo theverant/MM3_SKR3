@@ -6,5 +6,9 @@ G1 Z5 F5000 ; lift nozzle
 
 ## END GCODE
 M104 S0 ; turn off temperature
+G91 ; use relative positioning for the XYZ axes
+G1 Z5 ; move 5mm above the current location
+G90 ; use relative positioning for the XYZ axes
 G28 X0  ; home X axis
+G1 Y300 F3600 ; move to the Y=300mm position on the bed
 M84     ; disable motors
