@@ -1,0 +1,6 @@
+Pressure Advance
+4.8
+
+pressure_advance = <start> + <measured_height> * <factor>. (For example, 0 + 12.90 * .020 would be .258.)
+
+4.8*0.1 = 0.048
